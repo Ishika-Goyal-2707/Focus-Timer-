@@ -1,4 +1,4 @@
-# Focus Timer with Music
+# Focus Timer with Music- Vytoflow Tech 
 
 A simple and interactive focus timer web app that helps you stay focused while listening to calming music. This app allows you to track your focus sessions, set a timer, and play ambient music during work. It also displays random motivational quotes after every 5-minute focus session to keep you motivated.
 
