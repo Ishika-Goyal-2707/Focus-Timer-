@@ -1,0 +1,112 @@
+body {
+    background: #f0f4f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #quote {
+    font-style: italic;
+    margin-top: 15px;
+    color: #555;
+  }
+
+  .session-history {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  select {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+   /* Custom styling for the volume control */
+#volumeControl {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+#volumeControl::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#volumeControl::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#volumeControl:active::-webkit-slider-thumb {
+  background: #45a049;
+}
+
+#volumeControl:active::-moz-range-thumb {
+  background: #45a049;
+}
+
+/* Optional: Adding a hover effect on the slider */
+#volumeControl:hover {
+  background: #bbb;
+}
