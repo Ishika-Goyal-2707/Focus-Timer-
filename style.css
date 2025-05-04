@@ -110,3 +110,15 @@ body {
 #volumeControl:hover {
   background: #bbb;
 }
+
+/* Style the footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #777;
+  background: transparent;
+  z-index: 100;
+}
